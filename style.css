@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Knewave&family=Rubik+Puddles&family=Shizuru&display=swap');
+
 body{
     background:rgb(217, 228, 168);
 }
@@ -14,24 +17,66 @@ img{
 }
 h1{
     color:rgb(76, 143, 128);
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 1000;
+  font-style: normal;
 }
 .result{
     color:rgb(76, 143, 128);
+   font-size: larger;
+  font-family: "Knewave", system-ui;
+  font-weight: 50;
+  font-style: normal;
+
+
 }
 .clear{
 background:rgb(184, 236, 225);
 border-radius: 30%;
-width:50px;
+width:70px;
 height:50px;
 }
 .equals{
+
 background:rgb(184, 236, 225);
-width:50px;
+width:70px;
 height:50px;
 border-radius: 30%;
+
 }
 .input{
+   
     border-radius: 30%;
     width:100px;
 height:50px;
+font-size: 20px;
+
+}
+ .in2{
+ display:flex;
+      justify-content: space-between;
+
+
+ }
+ .in{
+ display:flex;
+     flex-direction:row-reverse;
+
+
+ }
+.fi{   
+    display:flex;
+           justify-content: space-between;
+  position: absolute;
+    flex-direction:row-reverse;
+
+}
+.fire{
+    position: absolute;
+
+}.fire2{
+
+       position: absolute;
+
+
 }

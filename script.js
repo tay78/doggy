@@ -2,13 +2,18 @@ let input = document.querySelector(".input");
 let clearButton = document.querySelector(".clear");
 let equalsButton = document.querySelector(".equals");
 let result = document.querySelector(".result");
-
-
+let fire = document.querySelector(".fire");
+let fire2 = document.querySelector(".fire2");
+fire.style.display = "none";
+fire2.style.display = "none";
 // 1. Convert to an arrow function.
+
 const calculateDoggieAge = (humanAge) => {
   
   doggyAge= humanAge*7;
   result.innerHTML = "Your doggie is " + doggyAge + " years old in human years!";
+   fire.style.display = "block";
+    fire2.style.display = "block";
 }
 //function calculateDoggieAge(humanAge) {
 
@@ -39,5 +44,6 @@ let userInput=Number(input.value);
 clearButton.onclick = function() {
   input.value = "";
   result.innerHTML = "";
-
+ 
+  
 }
